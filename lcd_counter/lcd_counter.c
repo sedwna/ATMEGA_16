@@ -41,8 +41,8 @@ void clear_str(char str[16])
 void main(void)
 {
       // Declare your local variables here
-      int number = 0;
-      char str_number[16];
+      int show = 0;
+      char str[16];
 
       // Input/Output Ports initialization
       // Port A initialization
@@ -161,10 +161,22 @@ void main(void)
 
       while (1)
       {
-            if (PINC.0 == 1)
-            {
-                  lcd_gotoxy(0, 0);
-                  lcd_puts("Hello World");
-            }
+            sprintf(str, "%d", show);
+      lcd_gotoxy(0,0);
+      lcd_puts(str);
+      if(PINC.0 == 1)
+      {
+       show++;
+
+
+
+      }
+      if(PINC.1 == 1)
+      {
+       show--;
+
+
+
+      }
       }
 }
