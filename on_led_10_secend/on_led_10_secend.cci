@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:58B871D8
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\stdbool.h"
+NODE:V LEVEL:0 LINE:29 "secend -> R4,R5"
+NODE:V LEVEL:0 LINE:30 "ms -> R6,R7"
+NODE:V LEVEL:0 LINE:31 "flag -> R9"
+NODE:F LEVEL:0 LINE:33 "timer0_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:58 "main(void)"
