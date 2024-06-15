@@ -1,8 +1,0 @@
-VERSION:3 SOURCE_TIMESTAMP:589E7EA3
-NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
-NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
-NODE:I LEVEL:0 LINE:26 "C:\cvavr\inc\stdio.h"
-NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\stdlib.h"
-NODE:I LEVEL:0 LINE:30 "C:\cvavr\inc\alcd.h"
-NODE:F LEVEL:0 LINE:33 "clear_str(unsigned char [16] str)"
-NODE:F LEVEL:0 LINE:41 "main(void)"
