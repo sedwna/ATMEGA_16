@@ -2,7 +2,7 @@
 This program was created by the
 CodeWizardAVR V3.14 Advanced
 Automatic Program Generator
-© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+ï¿½ Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project :
@@ -181,16 +181,14 @@ lcd_init(16);
 
 while (1)
       {
-
-   sprintf(str_minuteg,"%d",minuteg);
+      sprintf(str_minuteg,"%02d",minuteg);
       lcd_gotoxy(0,0);
       lcd_puts(str_minuteg);
 
-      lcd_gotoxy(2,0);
-      lcd_puts(":");
-
-      sprintf(str_secendg,"%d",secendg);
       lcd_gotoxy(3,0);
+      lcd_puts(":");
+      sprintf(str_secendg,"%02d",secendg);
+      lcd_gotoxy(5,0);
       lcd_puts(str_secendg);
 
 

@@ -146,15 +146,15 @@ void main(void)
       while (1)
       {
 
-            sprintf(str_minute, "%d", minute);
+            sprintf(str_minute, "%02d", minute);
             lcd_gotoxy(0, 0);
             lcd_puts(str_minute);
 
-            lcd_gotoxy(2, 0);
+            lcd_gotoxy(3, 0);
             lcd_puts(":");
 
-            sprintf(str_secend, "%d", secend);
-            lcd_gotoxy(3, 0);
+            sprintf(str_secend, "%02d", secend);
+            lcd_gotoxy(5, 0);
             lcd_puts(str_secend);
 
             delay_ms(100);

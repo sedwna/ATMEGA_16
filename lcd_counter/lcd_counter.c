@@ -161,7 +161,7 @@ void main(void)
 
       while (1)
       {
-            sprintf(str, "%d", show);
+            sprintf(str, "%02d", show);
       lcd_gotoxy(0,0);
       lcd_puts(str);
       if(PINC.0 == 1)
